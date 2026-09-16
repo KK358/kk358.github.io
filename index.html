@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ja">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>レイのAI競馬研究ノート — 動画投稿ツール</title>
+<style>
+  :root { color-scheme: light; }
+  body { margin:0; padding:2rem 1rem; font:16px/1.8 system-ui,"Hiragino Sans","Noto Sans JP",sans-serif;
+         color:#1a1a1a; background:#fafaf8; }
+  main { max-width:44rem; margin:0 auto; }
+  h1 { font-size:1.5rem; line-height:1.4; margin:0 0 .5rem; }
+  h2 { font-size:1.1rem; margin:2rem 0 .5rem; border-left:4px solid #3b6; padding-left:.6rem; }
+  .lead { color:#555; margin:0 0 2rem; }
+  dl { margin:0; } dt { font-weight:600; margin-top:1rem; } dd { margin:.2rem 0 0; }
+  footer { margin-top:3rem; padding-top:1rem; border-top:1px solid #ddd; font-size:.9rem; color:#666; }
+  a { color:#186; }
+</style>
+<main>
+  <h1>レイのAI競馬研究ノート — 動画投稿ツール</h1>
+  <p class="lead">個人が自分のYouTubeチャンネルへ動画を投稿するために作った、個人用のツールです。</p>
+
+  <h2>何をするものか</h2>
+  <p>
+    地方競馬のレース予想を自動で作り、その内容をまとめた短い動画（YouTube ショート）を
+    毎朝1本、<strong>作成者自身のYouTubeチャンネルにアップロードします</strong>。
+    動画の素材・音声・字幕はすべてこのツールが生成したもので、
+    アップロード先は作成者本人のチャンネル1つだけです。
+  </p>
+
+  <h2>誰が使うものか</h2>
+  <p>
+    <strong>作成者本人のみ</strong>が使います。一般に配布・提供しているサービスではなく、
+    他の方のアカウントに接続することはありません。
+  </p>
+
+  <h2>Googleアカウントへのアクセス</h2>
+  <dl>
+    <dt>求める権限</dt>
+    <dd><code>https://www.googleapis.com/auth/youtube.upload</code>（動画のアップロードのみ）</dd>
+    <dt>求めない権限</dt>
+    <dd>動画・再生履歴・チャンネル情報の閲覧、動画の削除、メール、連絡先、その他一切</dd>
+  </dl>
+
+  <h2>公開しているもの</h2>
+  <p>
+    予想の記事は note（<a href="https://note.com/keiba_model_lab">レイのAI競馬研究ノート</a>）、
+    動画は YouTube で公開しています。
+  </p>
+
+  <footer>
+    <a href="/privacy/">プライバシーポリシー</a>
+  </footer>
+</main>
+</html>
